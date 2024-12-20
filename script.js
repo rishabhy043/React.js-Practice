@@ -18,3 +18,7 @@ img2.addEventListener("click" , () =>{
     value1 ++;
     basket1.innerHTML = value1;
     })
+
+    //  CREATING ELEMENT USING REACT JS
+
+    const container = React.createElement
