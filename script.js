@@ -10,13 +10,16 @@ value1--;
 basket1.innerHTML = value1;
 value2 ++;
 basket2.innerHTML = value2;
+console.log(basket1);
 });
 
 img2.addEventListener("click" , () =>{
     value2 --;
     basket2.innerHTML = value2;
     value1 ++;
+  
     basket1.innerHTML = value1;
+
     })
 
     //  CREATING ELEMENT USING REACT JS
