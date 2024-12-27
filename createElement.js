@@ -6,3 +6,11 @@ root.render(h1)
 root.render(h2)
 // console.dir(h2);
 
+
+//    Creating element 
+
+const Element = React.createElement("div" , { class : "Elem2"} ,
+     [React.createElement("section" , {key:1} , [React.createElement("p" , {key:2} , "ReactDOM Code Breakdown:")])]
+    )
+
+    root.render(Element)
