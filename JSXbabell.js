@@ -10,6 +10,7 @@ style = {{
     width: 500 ,
     height: 500 ,
     borderRadius: 500
+    
 }}
 ></img>
 </h2>
